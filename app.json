@@ -8,9 +8,14 @@
         "Telegram Bot",
         "TroJanzHEX"
     ],
-    "website": "https://yasirweb.eu.org",
     "repository": "https://github.com/Anuragben10/Extractv9",
-    "success_url": "https://t.me/YasirArisM",
+	"stack": "heroku-22",
+	"formation": {
+		"worker": {
+			"quantity": 1,
+			"size": "eco"
+	    }
+    },
     "env": {
         "BOT_TOKEN": {
             "description": "You Telegram Bot Token from @BotFather",
